@@ -17,7 +17,6 @@ class Program
             {
                 Console.Write("Ваша догадка: ");
                 string input = Console.ReadLine();
-                // Проверка правильности ввода
                 if (!int.TryParse(input, out usnum))
                 {
                     Console.WriteLine("Пожалуйста, введите число.");
